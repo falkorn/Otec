@@ -14,6 +14,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Owl Carousel core CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -30,30 +33,30 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="#">Otec</a>
+
     </div>
     <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
       <li <?php if ($pagina == "inicio")    {echo "class = 'active'";} ?> ><a href ="index.php" alt="Torres Propiedades"><span></span> Inicio</a></li>
       <li <?php if ($pagina == "nosotros")  {echo "class = 'active'";} ?> ><a href ="#nosotros" alt="Nosotros"><span></span> Nosotros</a></li>
-      <li <?php if ($pagina == "ventas")    {echo "class = 'active'";} ?> ><a href ="#cursos" alt="Cursos"><span></span> Ventas</a></li>
-      <li <?php if ($pagina == "arriendos") {echo "class = 'active'";} ?> ><a href ="#servicios" alt="Servicios"><span></span> Arriendos</a></li>
+      <li <?php if ($pagina == "ventas")    {echo "class = 'active'";} ?> ><a href ="#cursos" alt="Cursos"><span></span> Cursos</a></li>
+      <li <?php if ($pagina == "arriendos") {echo "class = 'active'";} ?> ><a href ="#servicios" alt="Servicios"><span></span> Servicios</a></li>
       <li <?php if ($pagina == "contacto")  {echo "class = 'active'";} ?> ><a href ="contacto.php" alt="Contacto"><span></span> Contacto</a></li>          
   
-            <li class="dropdown">
+        <!--  <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desplegable <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
-          </ul>
-        </div>
+              </li>  -->
+    </ul>
+    </div>
   </div>
   </div>
 </div>
@@ -62,15 +65,13 @@
 
 <!-- Jumbotron
 ================================================== -->
-<div class="jumbotron" id="inicio" <?php if ('id' == "inicio") {$pagina = "inicio";} ?> >
+<div class="jumbotron">
   <!-- Imagen -->
-  <img src="img/Slider1.jpg" alt="First slide">
+  <img class="fondo" src="img/Slider1.jpg">
 
   <div class="container">
-      <div class="carousel-caption">
-      <h1>Otec de Juvenal</h1>
-      <p>Llena de cursos y de informacion muy interesante</p>
-      <p><a class="btn btn-lg btn-primary" href="#" role="button">Registrate!</a></p>
+      <div class="col-sm-6 col-sm-offset-3">
+      <img src="img/Logo_MD.png" class="logo">
       </div>
   </div>
 
@@ -82,30 +83,45 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing" id="nosotros" <?php if ('id' == "nosotros") {$pagina = "nosotros";} ?> >
+
+<div id="owl-demo">
+  <div class="item"><img src="img/gob.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/sence.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/bono.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/empresa.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/iso.jpg" alt="Lazy Owl Image"></div>
+</div>
+
+
+<div class="container marketing">
+
+
 
   <!-- Tres Columnas despues del Jumbotron -->
-  <div class="row">
+  <!--  <div class="row">
     <div class="col-lg-4">
       <img class="img-circle" src="img/d3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
       <h2>Aprende</h2>
       <p>Galardonados con el premio a la mejor OTEC 2014. Estudia con Nosotros</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
+    </div>
     <div class="col-lg-4">
       <img class="img-circle" src="img/d5.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
       <h2>Certificaté</h2>
       <p>Potencia tus conocimientos e ingresos.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
+    </div>
     <div class="col-lg-4">
       <img class="img-circle" src="img/d9.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
       <h2>Somos Profesionales</h2>
       <p>Contamos con un equipo dispuesto a satisfacer tus necesidades.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-  </div><!-- /.row -->
+    </div>
+  </div> -->
+
+
 </div><!-- /.container -->
+
     
 
 <div class="container marketing">
@@ -115,11 +131,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Riego en tiempos de sequia. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Uso y Manejo de Plaguicidas.</h2>
+          <p class="lead">Orientado a trabajadores que están relacionados o potenciales a ejecutar labores con plaguicidas en sus actividades. Curso que dura 30 horas y permite acceder credencial SAG, certificado y franquicia Sence.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/c4.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/c9.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -127,11 +143,11 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/c4.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/c1.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Prevención de Riegos Para Trabajadores Agrícola.</h2>
+          <p class="lead">Orientado a agricultores, profesionales y estudiantes relacionados con actividades agrícola demandante de agua riego y que están enfrentados a situación de restricción hídrica en sus cultivos. Duración 24 horas y permiten acceder a diploma de participación.</p>
         </div>
       </div>
 
@@ -139,11 +155,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <h2 class="featurette-heading">Mas Cursos disponibles.</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/c4.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/p1.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -166,5 +182,15 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Include Owl Carousel js plugin -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $("#owl-demo").owlCarousel({
+            items : 5,
+            autoPlay: 3000
+          }); 
+        });
+    </script>
   </body>
 </html>

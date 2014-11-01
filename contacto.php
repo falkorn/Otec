@@ -5,6 +5,12 @@ include('php/header.php');
 ?>
 
 
+<!-- =========================================
+==============================================
+ Correo Otec: info@capacitacionagricola.cl 
+ =============================================
+ ===========================================-->
+
 <!-- Jumbotron
 ================================================== -->
 <div class="jumbotron">
@@ -13,7 +19,7 @@ include('php/header.php');
 
   <div class="container">
       <div class="col-sm-6 col-sm-offset-3">
-      <img src="img/Logo_MD.png" class="logo">
+      <img src="img/Logo.png" class="logo">
       </div>
   </div>
 
@@ -26,13 +32,13 @@ include('php/header.php');
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
 
-<div id="owl-demo">
-  <div class="item"><img src="img/gob.jpg" alt="Lazy Owl Image"></div>
-  <div class="item"><img src="img/sence.jpg" alt="Lazy Owl Image"></div>
-  <div class="item"><img src="img/bono.jpg" alt="Lazy Owl Image"></div>
-  <div class="item"><img src="img/empresa.jpg" alt="Lazy Owl Image"></div>
-  <div class="item"><img src="img/iso.jpg" alt="Lazy Owl Image"></div>
-</div>
+  <div id="owl-demo">
+    <div class="item"><img src="img/banner2.jpg" alt="Lazy Owl Image"></div>
+    <div class="item"><img src="img/banner1.jpg" alt="Lazy Owl Image"></div>
+    <div class="item"><img src="img/banner4.jpg" alt="Lazy Owl Image"></div>
+    <div class="item"><img src="img/banner3.jpg" alt="Lazy Owl Image"></div>
+    <div class="item"><img src="img/banner5.jpg" alt="Lazy Owl Image"></div>
+  </div>
 
 
 <div class="container marketing">
@@ -112,8 +118,22 @@ include('php/header.php');
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Capacitación Agrícola Jb eirl 2014. &middot;  Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a> &middot;</p>
+      <div class="container">
+      <div class="col-sm-4 col-sm-offset-4">
+        <img class="banner-footer" src="img/banner_footer.jpg">
+      </div>     
+      </div>  
+      <p>&nbsp;</p>
+      <div class="rowfluid">
+        <p class="text-center">info@capacitacionagricola.cl</p>
+        <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
+      </div> 
+      <div class="rowfluid">
+        <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
+
+        <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
+      </div>   
+
       </footer>
 
     </div><!-- /.container -->

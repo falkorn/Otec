@@ -116,9 +116,17 @@ include('php/header.php');
       <div class="col-sm-4 col-sm-offset-4">
         <img class="banner-footer" src="img/banner_footer.jpg">
       </div>     
-      </div>     
+      </div>  
+      <p>&nbsp;</p>
+      <div class="rowfluid">
+        <p class="text-center">info@capacitacionagricola.cl</p>
+        <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
+      </div> 
+      <div class="rowfluid">
+        <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
+
         <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
-        <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>           
+      </div>   
 
       </footer>
 

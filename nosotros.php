@@ -5,73 +5,39 @@ include('php/header.php');
 ?>
 
 
-<!-- Jumbotron
-================================================== -->
+<!-- =========
+     Jumbotron
+     ========= -->
 <div class="jumbotron">
-  <!-- Imagen -->
+  <!-- Imagen de fondo -->
   <img class="fondo" src="img/Slider1.jpg">
-
+  <!-- Logo de fondo -->
   <div class="container">
       <div class="col-sm-6 col-sm-offset-3">
       <img src="img/Logo.png" class="logo">
       </div>
   </div>
-
 </div><!-- /.jumbotron -->
 
+<!-- ===================
+     Banner de Confianza
+     =================== -->
+<div id="owl-demo">
+  <div class="item"><img src="img/banner2.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/banner1.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/banner4.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/banner3.jpg" alt="Lazy Owl Image"></div>
+  <div class="item"><img src="img/banner5.jpg" alt="Lazy Owl Image"></div>
+</div>
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-  <div id="owl-demo">
-    <div class="item"><img src="img/banner2.jpg" alt="Lazy Owl Image"></div>
-    <div class="item"><img src="img/banner1.jpg" alt="Lazy Owl Image"></div>
-    <div class="item"><img src="img/banner4.jpg" alt="Lazy Owl Image"></div>
-    <div class="item"><img src="img/banner3.jpg" alt="Lazy Owl Image"></div>
-    <div class="item"><img src="img/banner5.jpg" alt="Lazy Owl Image"></div>
-  </div>
-
-
-
+<!-- ===================
+     Contenido Principal
+     =================== -->
 <div class="container marketing">
-
-
-
-  <!-- Tres Columnas despues del Jumbotron -->
-  <!--  <div class="row">
-    <div class="col-lg-4">
-      <img class="img-circle" src="img/d3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-      <h2>Aprende</h2>
-      <p>Galardonados con el premio a la mejor OTEC 2014. Estudia con Nosotros</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-lg-4">
-      <img class="img-circle" src="img/d5.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-      <h2>Certificaté</h2>
-      <p>Potencia tus conocimientos e ingresos.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-lg-4">
-      <img class="img-circle" src="img/d9.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-      <h2>Somos Profesionales</h2>
-      <p>Contamos con un equipo dispuesto a satisfacer tus necesidades.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-  </div> -->
-
-
-</div><!-- /.container -->
-
-    
-
-<div class="container marketing">
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
+  <!-- Inicio del contenido -->
+  <hr class="featurette-divider">
+      <!-- Quienes Somos -->
       <div class="row featurette">
         <div class="col-sm-12">
           <h2>Quienes Somos</h2>
@@ -81,7 +47,7 @@ include('php/header.php');
       </div>
 
       <hr class="featurette-divider">
-
+      <!-- Politicas de calidad -->
       <div class="row featurette">
         <div class="col-sm-12">
           <h2>Política de Calidad</h2>
@@ -91,47 +57,47 @@ include('php/header.php');
       </div>
 
       <hr class="featurette-divider">
-
+      <!-- Mision -->
       <div class="row featurette">
         <div class="col-sm-6">
           <h2>Misión</h2>
           <p class="text-justify">Contribuir al desarrollo técnico, productivo, económico del recurso humano de las empresas a través de un servicio de excelencia y calidad, centrado en las necesidades de nuestro cliente, proporcionando conocimientos, habilidades y aptitudes, colaborando con el mejoramiento en la calidad de vida y desarrollo socio-económico de la región.</p>
         </div>
-      </div>
-
-      <div class="row featurette">
+      <!-- Vision -->
         <div class="col-sm-6">
           <h2>Visión</h2>
           <p class="text-justify">Constituirse en una empresa líder en el servicio de la capacitación por su profesionalismo y calidad de servicio otorgado. Sus programas de formación y de desarrollo de capacidades laborales estarán orientados a fortalecer las capacidades humanas y apoyar a las organizaciones para enfrentar los mercados cada vez más exigentes y competitivos.</p>
         </div>
       </div>
 
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-      <div class="container">
+  <hr class="featurette-divider">
+  <!-- /Fin del contenido -->
+            <h3>OTEC CAPACITACION AGRICOLA JB Eirl, es un Otec autorizada y certificada bajo norma de calidad ISO 9001:2008 y Nch 2728:2003.</h3>
+<!-- =============
+     Pie de pagina
+     ============= -->
+  <footer>
+    <!-- Inicio del banner final -->
+    <div class="container">
       <div class="col-sm-4 col-sm-offset-4">
         <img class="banner-footer" src="img/banner_footer.jpg">
       </div>     
-      </div>   
-      <p>&nbsp;</p>
-      <div class="rowfluid">
-        <p class="text-center">info@capacitacionagricola.cl</p>
-        <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
-      </div> 
-      <div class="rowfluid">
-        <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
+    </div>  
+    <!-- Fin del banner final -->
+            <p>&nbsp;</p>
+    <!-- Inicio del pie de pagina -->
+    <div class="rowfluid">
+      <p class="text-center">info@capacitacionagricola.cl</p>
+      <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
+    </div> 
+    <div class="rowfluid">
+      <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
+      <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
+    </div> 
+    <!-- Fin del pie de pagina --> 
+  </footer>
 
-        <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
-      </div>   
-
-      </footer>
-
-    </div><!-- /.container -->
+</div><!-- /.container marketing -->
 
 
     <!-- Bootstrap core JavaScript
@@ -149,5 +115,5 @@ include('php/header.php');
           }); 
         });
     </script>
-  </body>
+</body>
 </html>

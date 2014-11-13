@@ -3,6 +3,9 @@ body {
   color: #5a5a5a;
 }
 
+h3 {
+  text-align: center;
+}
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -13,7 +16,9 @@ body {
 .navbar {
   position: absolute;
 }
-
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
@@ -35,7 +40,7 @@ body {
 /* CUSTOMIZE THE JUMBOTRON
 -------------------------------------------------- */
 .jumbotron {
-  height: 500px;
+  height: 400px;
   padding: 0;
 }
 .fondo {
@@ -43,21 +48,21 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 .logo {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 #owl-demo .item{
-
+  margin-left: 40px;
 }
 #owl-demo .item img{
   display: block;
-  height: 100px;
+  height: 80px;
 }
 
 /* MARKETING CONTENT

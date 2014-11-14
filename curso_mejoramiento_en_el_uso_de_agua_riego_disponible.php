@@ -9,7 +9,7 @@ include('php/header.php');
      ========= -->
 <div class="jumbotron">
   <!-- Imagen de fondo -->
-  <img class="fondo" src="img/Slider1.jpg">
+  <img class="fondo" src="img/slider3.jpg">
   <!-- Logo de fondo -->
   <div class="container">
       <div class="col-sm-6 col-sm-offset-3">

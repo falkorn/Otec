@@ -3,9 +3,30 @@ body {
   color: #5a5a5a;
 }
 
-h3 {
+h1,h3 {
   text-align: center;
 }
+.thumbnail:hover{
+transform: rotate(0deg)scale(1.1);
+-moz-transform: rotate(0deg)scale(1.1);
+-webkit-transform: rotate(0deg)scale(1.1);
+-o-transform: rotate(0deg)scale(1.1);
+transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+z-index: 1000;
+}
+
+.thumbnail {
+transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+}
+
+
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -28,6 +49,7 @@ h3 {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  border-radius: 15px;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -111,9 +133,6 @@ h3 {
 @media (min-width: 768px) {
 
   /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;

@@ -66,7 +66,7 @@ include('php/header.php');
       <div class="row featurette">
         <div class="col-sm-8">
           <h2 class="featurette-heading"><a href="curso_prevencion_de_riesgos_para_trabajadores_agricolas.php">Prevencion de riesgos para trabajadores agricolas.</a></h2>
-          <p class="lead text-justify">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <p class="lead text-justify">Orientado a trabajadores agricolas y jefaturas, relacionadas con labores y actividades en predios y packing, que demanden tecnicas y conocimientos en la prevencion de riesgos, asociados al trabajo.</p>
         </div>
         <div class="col-sm-4">
           <img class="featurette-image img-responsive" src="img/curso3.jpg" alt="Generic placeholder image">
@@ -80,8 +80,8 @@ include('php/header.php');
           <img class="featurette-image img-responsive" src="img/muypronto.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-sm-8">
-          <h2 class="featurette-heading"><a href="#">Mas Cursos disponibles.</a></h2>
-          <p class="lead text-justify">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"><a href="contacto.php">Mas Cursos disponibles.</a></h2>
+          <p class="lead text-justify">Invitamos a nuestros clientes a exponer sus necesidades de capacitación para su personal, en prevdios agricolas y packings.</p>
         </div>
       </div>
 

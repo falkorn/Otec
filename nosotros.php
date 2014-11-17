@@ -29,16 +29,8 @@ include('php/header.php');
      =================== -->
 <div class="container marketing">
   <!-- Inicio del contenido -->
-  <hr class="featurette-divider">
-      <!-- Quienes Somos -->
-      <div class="row featurette">
-        <div class="col-sm-12">
-          <h2>Quienes Somos</h2>
-          <p class="text-justify">El Otec CAPACITACION AGRICOLA JB E.I.R.L., nace por una necesidad de constituir una Otec orientada a otorgar servicios de capacitación, con una fuerte orientación al fortalecimiento de habilidades y capacidades en los trabajadores del ámbito agrícola y agroindustrial, preferentemente, en una zona donde la segunda actividad económica de importancia económica es la agricultura con una orientación al mercado de exportación, y que por más de 10 años en la relatoría de cursos en dicha área por parte del Gerente de ésta Otec y por más de 20 años ejerciendo servicios de desarrollo productivo a la agricultura familiar campesina de la zona, es que se ha concluido en satisfacer los requerimientos con una propuesta de alta calidad y profesionalismo en el servicio de capacitación, con el firme propósito de brindar apoyo a las organizaciones en el ámbito del potenciamiento de capacidades, asistiéndolas en la puesta en práctica de las estrategias de formación y desarrollo.</p>
-          <p class="text-justify">De esta forma es que en el año 2012 se constituye la empresa individual de responsabilidad limitada.</p>
-        </div>
-      </div>
-
+      <hr class="featurette-divider">
+      <h1>Nosotros.</h1>
       <hr class="featurette-divider">
       <!-- Politicas de calidad -->
       <div class="row featurette">

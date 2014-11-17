@@ -6,7 +6,7 @@
     </div>  
 <p>&nbsp;</p>
     <div class="rowfluid">
-      <p class="text-center">info@capacitacionagricola.cl</p>
+      <p class="text-center">Mail: <a href="mailto:info@capacitacionagricola.cl">info@capacitacionagricola.cl</a></p>
       <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
     </div> 
     <div class="rowfluid">

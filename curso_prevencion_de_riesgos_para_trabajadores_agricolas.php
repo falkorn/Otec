@@ -39,19 +39,16 @@ include('php/header.php');
         <div class="row featurette">
           <div class="col-sm-12">
             <h1 class="text-center">CURSO PREVENCION DE RIESGOS PARA TRABAJADORES AGRICOLA.</h1>
-            <p>&nbsp;</p>
-            <h3 class="text-justify">“Actividad de capacitación autorizada por el SENCE para efecto de la Franquicia Tributaria de Capacitación, no conducente al otorgamiento de un título o grado académico”.</h3>
-            <p>&nbsp;</p>
           </div>
         </div>
+  <hr class="featurette-divider">
         <!-- Descripcion curso -->
         <div class="col-sm-12">
           <!-- Tabla -->
           <dl class="dl-horizontal">
           	<dt>OBJETIVO GENERAL:</dt>
-          	<dd>
-              <p>Entregar a los participantes conceptos y criterios técnicos, como asimismo estrategias y metodologías que le permitan identificar peligros, evaluar riesgos y conocer como se pueden controlar.</p> 
-              <p>Capacitar a la supervisión y líderes de  empresas agrícolas en el reconocimiento de los fundamentos básicos de prevención de riesgos  y normativa legal vigente que permitan minimizar los accidentes del trabajo y enfermedades profesionales.</p>
+          	<dd><p>Entregar a los participantes conceptos y criterios técnicos, como asimismo estrategias y metodologías que le permitan identificar peligros, evaluar riesgos y conocer como se pueden controlar.</p> 
+                <p>Capacitar a la supervisión y líderes de  empresas agrícolas en el reconocimiento de los fundamentos básicos de prevención de riesgos  y normativa legal vigente que permitan minimizar los accidentes del trabajo y enfermedades profesionales.</p>
             </dd>
             <p>&nbsp;</p>
           	<dt>DIRIGIDOS A:</dt>
@@ -117,7 +114,7 @@ include('php/header.php');
 	            <tr>
 	              <td>Código SENCE</td>
 	              <td>:</td>
-	              <td>12-37-9232-42</td>
+	              <td>En tramite.</td>
 	            </tr>
 	            <tr>
 	              <td>Duración</td>
@@ -170,55 +167,14 @@ include('php/header.php');
           		</ul>
           	</dd>
           </dl>
-          	<h3>OTEC CAPACITACION AGRICOLA JB Eirl, es un Otec autorizada y certificada bajo norma de calidad ISO 9001:2008 y Nch 2728:2003.</h3>
-          	<p>&nbsp;</p>
         </div>
-        
-  <hr class="featurette-divider">
+<p>&nbsp;</p> 
+<hr class="featurette-divider">
   <!-- /Fin del contenido -->
 
 <!-- =============
      Pie de pagina
      ============= -->
-  <footer>
-    <!-- Inicio del banner final -->
-    <div class="container">
-      <div class="col-sm-4 col-sm-offset-4">
-        <img class="banner-footer" src="img/banner_footer.jpg">
-      </div>     
-    </div>  
-    <!-- Fin del banner final -->
-            <p>&nbsp;</p>
-    <!-- Inicio del pie de pagina -->
-    <div class="rowfluid">
-      <p class="text-center">info@capacitacionagricola.cl</p>
-      <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
-    </div> 
-    <div class="rowfluid">
-      <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
-      <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
-    </div> 
-    <!-- Fin del pie de pagina -->  
-  </footer>
-
-</div><!-- /.container marketing -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Include Owl Carousel js plugin -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-          $("#owl-demo").owlCarousel({
-            items : 5,
-            autoPlay: 3000
-          }); 
-        });
-    </script>
-
-</body>
-</html>
+<h3>OTEC CAPACITACION AGRICOLA JB Eirl, es un Otec autorizada y certificada bajo norma de calidad ISO 9001:2008 y Nch 2728:2003.</h3>
+<!-- FOOTER -->
+<?php  include('php/footer.php'); ?>

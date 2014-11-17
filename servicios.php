@@ -39,7 +39,8 @@ include('php/header.php');
         <!-- Intro Servicios -->
         <div class="row featurette">
           <div class="col-sm-12">
-            <h2>Servicios</h2>
+            <h1>Servicios</h1>
+    <hr class="featurette-divider">
             <p class="text-justify">OTEC CAPACITACION AGRICOLA en su deseo de dar un servicio de calidad pone a disposición deferentes modalidades de servicios, tales como:</p>
           </div>
         </div>

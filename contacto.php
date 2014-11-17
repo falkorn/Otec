@@ -1,6 +1,7 @@
 <?php  
 $tituloPagina = "Contacto - Jb eirl Capacitación Agrícola";
 $pagina = "contacto"; 
+$enviado = "clear";
 include('php/header.php');
 ?>
 
@@ -36,42 +37,52 @@ include('php/header.php');
 <div class="container marketing">
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+<hr class="featurette-divider">
+<h1>Contáctanos</h1>
+<hr class="featurette-divider">
+<div class="row">
+  <div class="col-sm-10 col-md-9 col-lg-9 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Uso y Manejo de Plaguicidas.</h2>
-          <p class="lead">Orientado a trabajadores que están relacionados o potenciales a ejecutar labores con plaguicidas en sus actividades. Curso que dura 30 horas y permite acceder credencial SAG, certificado y franquicia Sence.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/c9.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
+    <ul id="contact">
+      <li>
+        <form class="form-horizontal" role="form" method="get" action="php/correo.php">
+          <div class="form-group">
+            <label for="txt_nombre" class="col-sm-2 control-label">Nombre</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" placeholder="Nombre">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="txt apellido" class="col-sm-2 control-label">Apellido</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="txt apellido" name="txt apellido" placeholder="Apellido">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="txt_email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="txt_email" name="txt_email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="textarea_mensaje" class="col-sm-2 control-label">Mensaje</label>
+            <div class="col-sm-10">
+              <textarea type="password" class="form-control" id="textarea_mensaje" rows="5" name="textarea_mensaje" placeholder="Escriba su mensaje"></textarea>
+            </div>
+          </div>
 
-      <hr class="featurette-divider">
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary pull-right" name="btn_enviar_correo">Enviar</button>
+            </div>
+          </div>
 
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/c1.jpg" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Prevención de Riegos Para Trabajadores Agrícola.</h2>
-          <p class="lead">Orientado a agricultores, profesionales y estudiantes relacionados con actividades agrícola demandante de agua riego y que están enfrentados a situación de restricción hídrica en sus cultivos. Duración 24 horas y permiten acceder a diploma de participación.</p>
-        </div>
-      </div>
+        </form>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Mas Cursos disponibles.</h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/p1.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
-
+      </li>
+    </ul>
+  </div>
+</div>
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->

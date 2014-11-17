@@ -1,5 +1,5 @@
 <?php  
-$tituloPagina = "CURSO USO Y MANEJO DE PLAGUICIDAS - Jb eirl Capacitación Agrícola";
+$tituloPagina = "Curso uso y manejo de plaguicidas - Jb eirl Capacitación Agrícola";
 $pagina = "cursos"; 
 include('php/header.php');
 ?>
@@ -39,7 +39,7 @@ include('php/header.php');
         <div class="row featurette">
           <div class="col-sm-12">
             <h1 class="text-center">CURSO USO Y MANEJO DE PLAGUICIDAS</h1>
-            <p>&nbsp;</p>
+  <hr class="featurette-divider">
             <h3 class="text-justify">“Actividad de capacitación autorizada por el SENCE para efecto de la Franquicia Tributaria de Capacitación, no conducente al otorgamiento de un título o grado académico”.</h3>
             <p>&nbsp;</p>
           </div>
@@ -146,55 +146,14 @@ include('php/header.php');
           		</ul>
           	</dd>
           </dl>
-          	<h3>OTEC CAPACITACION AGRICOLA JB Eirl, es un Otec autorizada por el Sence/Sag y certificada bajo norma de calidad ISO 9001:2008 y Nch 2728:2003.</h3>
-          	<p>&nbsp;</p>
         </div>
-        
-  <hr class="featurette-divider">
+<p>&nbsp;</p> 
+<hr class="featurette-divider">
   <!-- /Fin del contenido -->
 
+<h3>OTEC CAPACITACION AGRICOLA JB Eirl, es un Otec autorizada por el Sence/Sag y certificada bajo norma de calidad ISO 9001:2008 y Nch 2728:2003.</h3>
 <!-- =============
      Pie de pagina
      ============= -->
-  <footer>
-    <!-- Inicio del banner final -->
-    <div class="container">
-      <div class="col-sm-4 col-sm-offset-4">
-        <img class="banner-footer" src="img/banner_footer.jpg">
-      </div>     
-    </div>  
-    <!-- Fin del banner final -->
-            <p>&nbsp;</p>
-    <!-- Inicio del pie de pagina -->
-    <div class="rowfluid">
-      <p class="text-center">info@capacitacionagricola.cl</p>
-      <p class="text-center">Freire N°751, Of.3 - Telefono: (034)2382013 - 96829516</p>  
-    </div> 
-    <div class="rowfluid">
-      <p class="pull-left">Capacitación Agrícola Jb eirl 2014.</p>  
-      <p class="pull-right">Diseñado por <a href="https://twitter.com/nicolas_ulloa_t">@nicolas_ulloa_t</a></p>
-    </div> 
-    <!-- Fin del pie de pagina -->  
-  </footer>
-
-</div><!-- /.container marketing -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Include Owl Carousel js plugin -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-          $("#owl-demo").owlCarousel({
-            items : 5,
-            autoPlay: 3000
-          }); 
-        });
-    </script>
-
-</body>
-</html>
+<!-- FOOTER -->
+<?php  include('php/footer.php'); ?>

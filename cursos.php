@@ -37,8 +37,8 @@ include('php/header.php');
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
-
-      <h3>Nuestros Cursos.</h3>
+      <h1>Nuestros Cursos.</h1>
+      <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-sm-8">
           <h2 class="featurette-heading"><a href="curso_uso_y_manejo_de_plaguicidas.php">Uso y Manejo de Plaguicidas.</a></h2>
